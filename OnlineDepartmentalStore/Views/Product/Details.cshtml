@@ -1,0 +1,122 @@
+﻿@model OnlineDepartmentalStore.Models.Products
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div class="container">
+    <h4>Products</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.CustomerName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ContactNumber)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Rice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Egg)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Egg)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Milk)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Milk)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Biscuit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Biscuit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Chocolate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Chocolate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IceCream)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IceCream)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sugar)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sugar)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Oil)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Oil)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Flour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Flour)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Total)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Total)
+        </dd>
+
+    </dl>
+</div>
+<p class="container">
+    @Html.ActionLink("Back to List", "ShowData")
+</p>

@@ -1,0 +1,109 @@
+﻿@model IEnumerable<OnlineDepartmentalStore.Models.Products>
+
+@{
+    ViewBag.Title = "ShowData";
+}
+
+<table class="table container" style="margin-top:71px">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Egg)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Milk)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Biscuit)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Chocolate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IceCream)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Sugar)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Oil)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Flour)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Total)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Egg)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Milk)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Biscuit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Chocolate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IceCream)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dal)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sugar)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Oil)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Flour)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

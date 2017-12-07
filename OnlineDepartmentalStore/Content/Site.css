@@ -1,0 +1,326 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash|Roboto+Condensed:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700&subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+body {
+    
+}
+
+
+
+.catagoriesText{
+    margin-bottom:30px;
+    //margin-left:415px;
+    font-family:Roboto;
+}
+
+.portion2{
+    margin-left:415px;
+    font-family:Roboto;
+}
+
+#rowPortion2{
+    margin-top:30px;
+}
+
+.col-md-4 h3{
+    font-family:Roboto;
+}
+
+.col-md-2 img{
+    width:200px;
+    height:130px;
+}
+
+.col-md-4 img{
+    width:360px;
+    height:200px;
+}
+
+#rice{
+    margin-right:40px;
+}
+
+#egg{
+    margin-right:40px;
+}
+
+#milk{
+    margin-right:40px;
+}
+
+#biscuit{
+    margin-right:40px;
+}
+
+#chocolate{
+    margin-right:30px;
+}
+
+#iceCream{
+    margin-right:40px;
+}
+
+#dal{
+    margin-right:40px;
+}
+
+#sugar{
+    margin-right:40px;
+}
+
+#oil{
+    margin-right:40px;
+}
+
+#flour{
+    margin-right:30px;
+}
+.buyNow{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:540px;
+    font-size:20px;
+}
+.sliderArea img{
+    height:400px;
+}
+.productPortion{
+    overflow:hidden;
+}
+.createProduct{
+    width:
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-ThinItalic-webfont.eot');
+    src: url('Roboto-ThinItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-ThinItalic-webfont.woff') format('woff'),
+         url('Roboto-ThinItalic-webfont.ttf') format('truetype'),
+         url('Roboto-ThinItalic-webfont.svg#RobotoThinItalic') format('svg'); (under the Apache Software License). 
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('Roboto-Thin-webfont.eot');
+    src: url('Roboto-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Roboto-Thin-webfont.woff') format('woff'),
+         url('Roboto-Thin-webfont.ttf') format('truetype'),
+         url('Roboto-Thin-webfont.svg#RobotoThin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+.form-style-1 {
+    width: 100%;
+    padding: 0px 12px 10px 20px;
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-style-1 li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+.form-style-1 label{
+    margin:0 0 3px 0;
+    padding:0px;
+    display:block;
+    font-weight: bold;
+}
+.form-style-1 input[type=text], 
+.form-style-1 input[type=date],
+.form-style-1 input[type=datetime],
+.form-style-1 input[type=number],
+.form-style-1 input[type=search],
+.form-style-1 input[type=time],
+.form-style-1 input[type=url],
+.form-style-1 input[type=email],
+textarea, 
+select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border:1px solid #BEBEBE;
+    padding: 7px;
+    margin:0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;  
+}
+.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=date]:focus,
+.form-style-1 input[type=datetime]:focus,
+.form-style-1 input[type=number]:focus,
+.form-style-1 input[type=search]:focus,
+.form-style-1 input[type=time]:focus,
+.form-style-1 input[type=url]:focus,
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+.form-style-1 .field-divided{
+    width: 49%;
+}
+
+.form-style-1 .field-long{
+    width: 100%;
+}
+.form-style-1 .field-select{
+    width: 100%;
+}
+.form-style-1 .field-textarea{
+    height: 100px;
+}
+.form-style-1 input[type=submit], .form-style-1 input[type=button]{
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.form-style-1 input[type=submit]:hover, .form-style-1 input[type=button]:hover{
+    background: #4691A4;
+    box-shadow:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+}
+.form-style-1 .required{
+    color:red;
+}
+.nav-wrapper{
+    
+}
+.navbar-shrink{
+	padding: 5px;
+	transition: .3s ease-in-out;
+}
+.custom-navbar{
+	//font-family: 'Roboto Condensed', sans-serif;
+	//font-family: 'Kaushan Script', cursive;
+	//padding: 15px 0;
+	transition: .3s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+}
+
+.navbar-brand{
+	padding: 20px 20px;
+	font-size: 45px;
+	font-family: 'Ravi Prakash', cursive;
+}
+.navbar-default{
+	background: #fff;
+	border: 0;
+	box-shadow: 1px 0px 2px 1px #8f8f8f;
+}
+.navbar-toggle{
+	margin-top: 22px;
+	border: 0;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	border-bottom: 2px solid #7f8c8d;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+	border-bottom: 2px solid #ecf0f1;
+}
+.navbar{
+	margin-bottom: 0;
+}
+
+.about h1{
+    font-family: 'Ravi Prakash', cursive;
+}
+.about h2,h3,p{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aboutArea{
+    margin-bottom:25px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../Image/sliderPic1.jpg");
+
+    /* Set a specific height */
+    min-height: 400px; 
+    width:100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.schedule-wrapper{
+	//margin: 100px 0;
+}
+.schedule-heading{
+	font-size: 42px;
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	color: #fff;
+	margin: 30px;
+	margin-top: 80px;
+}
+.schedule h4{
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 24px;
+}
+.schedule h2{
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 35px;
+	margin-top: 60px;
+}
+.schedule h5{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #fff;
+}
+.sliderArea{
+    margin-top:71px;
+    overflow:hidden;
+}
+.slider img{
+    width:100%;
+}
+.footer{
+    margin-top:15px;
+}
